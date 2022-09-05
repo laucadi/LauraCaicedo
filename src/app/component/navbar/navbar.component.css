@@ -1,0 +1,33 @@
+.background {
+  background-color: #353438;
+}
+
+.background nav {
+  font-family: "Rubik", sans-serif;
+}
+
+.background nav li {
+  padding-right: 30px;
+}
+
+.background nav a:hover {
+  border-bottom: 2px solid #36a285;
+}
+
+.background nav .nav-item a {
+  color: #36a285;
+}
+
+.background nav button {
+  border: 1px solid #36a285;
+  color: #36a285;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.background nav button:hover {
+  background-color: #36a285;
+  color: #d3d3d3;
+  border: none;
+}
+/*# sourceMappingURL=navbar.component.css.map */

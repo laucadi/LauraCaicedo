@@ -1,0 +1,55 @@
+.wrapper {
+  background: #34353a;
+  /*url("../../../assets/img/Ellipse.png") no-repeat center
+    center;*/
+  font-family: "Ubuntu", sans-serif;
+  h3 {
+    font-weight: 600;
+    color: #cdced2;
+    text-align: center;
+    padding: 60px;
+  }
+  .container {
+    height: fit-content;
+
+    .icons {
+      max-width: 900px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      column-gap: 40px;
+      row-gap: 40px;
+      padding: 50px;
+      position: relative;
+
+      .icon {
+        border-radius: 30px;
+        position: relative;
+        transform-style: preserve-3d;
+        border-radius: 10px;
+        width: 120px;
+        height: 120px;
+        background: url("../../../assets/img/group1.png");
+        background-size: cover;
+        img {
+          width: 70px;
+          margin: 0 auto;
+        }
+        span {
+          color: #fdfdff;
+          font-weight: 300;
+        }
+      }
+      .icon:hover {
+        cursor: pointer;
+        width: 130px;
+        height: 130px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1023.98px) {
+  .container {
+    height: 100vh !important;
+  }
+}

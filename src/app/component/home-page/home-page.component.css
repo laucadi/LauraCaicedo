@@ -1,0 +1,76 @@
+/*font-family: 'Rubik', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+.wapper {
+  height: 100vh;
+  background-image: url("../../../assets/img/background1.jpg");
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.wapper .home {
+  color: #d3d3d3;
+  height: 80vh;
+}
+
+.wapper .home .span {
+  color: #3b917e;
+  font-weight: lighter;
+}
+
+.wapper .home h4 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.wapper .home span {
+  font-weight: 500;
+}
+
+.wapper .home h2 {
+  font-size: 2.5em;
+  font-family: "Rubik", sans-serif;
+  text-shadow: -1px -2px 1px #232222;
+}
+
+.wapper .home .initial-text {
+  padding-right: 80px;
+  line-height: 1.3em;
+  letter-spacing: 0.08em;
+  font-weight: lighter;
+}
+
+.wapper .home .image {
+  background-image: url("../../../assets/img/0004.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.wapper .home .image .icons {
+  height: 100vh;
+  list-style: none;
+}
+
+.wapper .home .image .icons li {
+  text-align: end;
+}
+
+.wapper .home .image .icons li i:hover {
+  color: #3b917e;
+  font-size: 22px;
+}
+
+.wapper .arrow {
+  max-height: 100px;
+  color: #d3d3d3;
+}
+
+.wapper .arrow p {
+  margin-bottom: 0;
+}
+
+.wapper .arrow a {
+  color: #d3d3d3;
+}
+/*# sourceMappingURL=home-page.component.css.map */

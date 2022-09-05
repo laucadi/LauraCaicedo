@@ -1,0 +1,133 @@
+.wrapper {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #34353a;
+  h3 {
+    font-weight: 600;
+    color: #cdced2;
+  }
+  .project {
+    .card {
+      width: 40%;
+      border: none;
+      border-radius: 10px;
+      .image1 {
+        background: url("../../../assets/img/lucky-pets.png") center / cover
+          no-repeat;
+      }
+      .image2 {
+        background: url("../../../assets/img/restaurant.jpg") center / cover;
+      }
+      .image3 {
+        background-image: url("../../../assets/img/guess.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .image {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+          .date {
+            top: 0;
+          }
+          .content {
+            bottom: 0;
+          }
+        }
+        .date {
+          width: 100%;
+          position: absolute;
+          top: -90px;
+          background-color: rgba(59, 145, 126, 0.9);
+          padding: 20px;
+          color: #34353a;
+          transition: top 300ms ease-in-out;
+          box-shadow: rgba(0, 0, 0, 0.276) 0px -50px 36px -28px inset;
+        }
+
+        .content {
+          text-align: center;
+          width: 100%;
+          position: absolute;
+          bottom: -134px;
+          overflow: hidden;
+          background-color: rgba(59, 145, 126, 0.9);
+          transition: bottom 400ms ease-in-out;
+          box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+            rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+            rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+            rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+            rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+            rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+          span {
+            color: #34353a;
+          }
+          h2 {
+            color: #34353a;
+          }
+          ul {
+            padding: 0;
+            li {
+              list-style: none;
+              i {
+                color: #cdced2;
+                font-size: 18px;
+                &:hover {
+                  font-size: 19px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .text {
+      max-width: 400px;
+      box-shadow: rgba(59, 145, 126, 0.4) 5px 5px,
+        rgba(59, 145, 126, 0.3) 10px 10px, rgba(59, 145, 126, 0.2) 15px 15px,
+        rgba(59, 145, 126, 0.1) 20px 20px, rgba(59, 145, 126, 0.05) 25px 25px;
+
+      z-index: 1;
+      margin: auto -50px;
+      height: fit-content;
+      width: 50%;
+      background-color: #1f1e1ea7;
+      h5 {
+        padding: 10px;
+        color: #cdced2;
+      }
+      p {
+        color: #cdced2;
+        font-size: 0.9em;
+        padding: 0px 9px;
+      }
+    }
+  }
+}
+@media (min-width: 230px) and (max-width: 425.96px) {
+  .card {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 1024.98px) {
+  h4 {
+    padding: 90px !important;
+  }
+  .project {
+    padding: 50px 0px !important;
+  }
+  .final {
+    justify-content: start !important;
+  }
+}
+@media (min-width: 1440px) {
+  .final {
+    padding-right: 90px;
+  }
+}

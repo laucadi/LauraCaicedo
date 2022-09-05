@@ -1,0 +1,43 @@
+.background {
+  background-color: #353438;
+
+  nav {
+    background-color: #3534383e;
+    top: 0;
+    left: 0px;
+    width: 100%;
+
+    .navbar-brand {
+      color: #62e4c2;
+      text-shadow: -2px -2px 3px rgba(109, 150, 150, 0.4);
+    }
+    li {
+      padding-right: 30px;
+
+      a:hover {
+        border-bottom: 2px solid #62e4c2;
+      }
+    }
+    .nav-item a {
+      color: #62e4c2;
+    }
+    button {
+      border: 1px solid #62e4c2;
+
+      box-shadow: rgba(26, 85, 44, 0.1) 0px 4px 6px -1px,
+        rgba(26, 110, 69, 0.06) 0px 2px 4px -1px;
+      a {
+        text-decoration: none;
+        color: #62e4c2;
+      }
+    }
+    button:hover {
+      background-color: #62e4c2;
+      color: #353438;
+      border: none;
+      a {
+        color: #353438;
+      }
+    }
+  }
+}
